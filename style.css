@@ -251,3 +251,93 @@ header {
   background: #ff2d87;
   color: #fff;
 }
+
+.designers {
+  padding: 40px;
+  text-align: center;
+  background-color: #f1efef;
+}
+
+.designers h2 {
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.designer-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.designer {
+  width: 170px;
+  background: #fff;
+  border-radius: 15px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.designer:hover {
+  transform: translateY(-5px);
+}
+
+.designer img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.designer h4 {
+  margin-bottom: 15px;
+  font-size: 17px;
+}
+
+.designer button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ff2d87;
+  background: #fff;
+  color: #ff2d87;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.designer button:hover {
+  background: #ff2d87;
+  color: #fff;
+}
+
+footer {
+  margin-left: 340px;
+  margin-right: 340px;
+  margin-top: 70px;
+  padding: 60px 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  background: #fff;
+  border-top: 1px solid #eee;
+}
+
+footer h4 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+footer p {
+  margin-bottom: 12px;
+  color: #777;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+footer p:hover {
+  color: #ff2d87;
+}
